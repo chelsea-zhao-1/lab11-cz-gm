@@ -1,4 +1,7 @@
 import math
+def square_root(a): math.sqrt(a)# raise ValueError if a < 0
+def hypotenuse(a, b): math.hypot(a, b) # can have negative nums
+
 def add(a, b): 
     return a + b
 
@@ -21,5 +24,4 @@ def log(a, b):
 
 def exp(a, b): 
     return a**b
-
 
